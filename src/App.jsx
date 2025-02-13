@@ -43,7 +43,7 @@ export default function ProposalApp() {
       className="d-flex flex-column align-items-center justify-content-center min-vh-100 bg-gradient text-white p-4"
       style={{ backgroundColor: "	#da0000" }}
     >
-      <ReactAudioPlayer src="/Die With A Smile.mp3" autoPlay loop />
+      <ReactAudioPlayer src="./src/audio/Die With A Smile.mp3" autoPlay loop />
       {accepted ? (
         <div
           className="text-center p-5 rounded shadow-lg text-dark"
@@ -78,7 +78,7 @@ export default function ProposalApp() {
         >
           <div className="card-body">
             {timeLeft > 0 ? (
-              <h2 className="fs-4 fw-bold text-secondary">
+              <h2 className="fs-4 fw-bold text-danger">
                 Surprise in {timeLeft} seconds...
               </h2>
             ) : (
