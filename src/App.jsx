@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Confetti from "react-confetti";
 import ReactAudioPlayer from "react-audio-player";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./app.css";
+import "./App.css";
 
 const images = [
   "./images/moment1.jpg",
