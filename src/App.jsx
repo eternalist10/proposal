@@ -43,7 +43,11 @@ export default function ProposalApp() {
       className="d-flex flex-column align-items-center justify-content-center min-vh-100 bg-gradient text-white p-4"
       style={{ backgroundColor: "	#da0000" }}
     >
-      <ReactAudioPlayer src="https://a2bc7fiipxufyn65.public.blob.vercel-storage.com/Die%20With%20A%20Smile-AbT3xeo3OSRvp993gnPcvTg6P5A5Px.mp3" autoPlay loop />
+      <ReactAudioPlayer
+        src="https://a2bc7fiipxufyn65.public.blob.vercel-storage.com/Die%20With%20A%20Smile-89kuIZLriEFSDVaBVDA4IFMcvSSwKe.mp3"
+        autoPlay
+        loop
+      />
       {accepted ? (
         <div
           className="text-center p-5 rounded shadow-lg text-dark"
